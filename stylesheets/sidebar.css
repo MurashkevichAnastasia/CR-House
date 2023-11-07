@@ -1,0 +1,33 @@
+a:hover::before {
+  background: green;
+}
+nav {
+  width: 300px;
+  display: block;
+  position: fixed;
+  top: 140px;
+  left: 20px;
+  overflow: hidden;
+  opacity: 0.2;
+  transition: all 0.8s ease-out;
+}
+nav:hover {
+  opacity: 1;
+  transition: all 0.1s ease-out;
+}
+nav h2 {
+  font-size: 17px;
+  font-weight: bold;
+}
+nav a {
+  text-decoration: none;
+}
+nav li {
+  margin: 10px 0;
+  font-size: 15px;
+  line-height: 20px;
+}
+nav ol > ol {
+  color: 777;
+  margin-left: 10px;
+}
